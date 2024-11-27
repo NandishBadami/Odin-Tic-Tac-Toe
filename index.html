@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <p style="color: blue;">Enter player names and click on start button to start the game</p><br>
+    <form>
+        Player 1 (X):
+        <input type="text" name="player 1" placeholder="Name" class="player1">
+        Player 2 (O):
+        <input type="text" name="player 2" placeholder="Name" class="player2"><br><br>
+        <button type="button" class="start-button">Start Game</button>
+        <button type="button" class="restart-button">Restart</button>
+    </form>
+    <p style="color: blue;" class="p2"></p>
+    <table>
+    <tr>
+        <td class="rc"></td>
+        <td class="vert"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="hori"></td>
+        <td class="vert hori"></td>
+        <td class="hori"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="vert"></td>
+        <td></td>
+    </tr>
+    </table>
+    <p class="p1"></p>
+    <script src="scripts.js"></script>
+</body>
+</html>
